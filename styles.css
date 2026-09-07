@@ -1,0 +1,117 @@
+/* Color palette: royal blue #00529f, gold #febe10, white #ffffff, navy #071d41. */
+
+/* The page background and default text color use the palette above. */
+body {
+    margin: 0;
+    background-color: #f4f6fa;
+    color: #071d41;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* This centered container holds the complete page. */
+#container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #00529f;
+    overflow: hidden;
+}
+
+#header {
+    padding: 30px;
+    background-color: #00529f;
+    color: #ffffff;
+}
+
+#logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#tagline {
+    color: #febe10;
+    font-size: 16px;
+}
+
+#menu {
+    padding: 12px 30px;
+    background-color: #071d41;
+}
+
+#menu a {
+    margin-right: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #febe10;
+}
+
+/* The sidebar floats left, as shown in the instructor's layout examples. */
+#sidebar {
+    float: left;
+    width: 22%;
+    margin: 25px 2% 25px 3%;
+    padding: 20px;
+    background-color: #f4f6fa;
+    border: 1px solid #febe10;
+}
+
+#sidebar h2,
+#main h1,
+#main h2 {
+    color: #00529f;
+}
+
+#profile-box {
+    text-align: center;
+}
+
+#profile-initials {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px auto;
+    padding-top: 18px;
+    background-color: #febe10;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Main content sits beside the floated sidebar. */
+#main {
+    float: left;
+    width: 63%;
+    margin: 25px 3% 25px 0;
+}
+
+.section {
+    margin-bottom: 25px;
+    padding: 0 5px 15px 5px;
+    border-bottom: 1px solid #febe10;
+}
+
+#main h1 {
+    margin-top: 0;
+}
+
+#connect a {
+    margin-right: 18px;
+    color: #00529f;
+    font-weight: bold;
+}
+
+#connect a:hover {
+    color: #febe10;
+}
+
+/* Clear the floated columns so the footer starts below them. */
+#footer {
+    clear: both;
+    padding: 15px 30px;
+    background-color: #071d41;
+    color: #ffffff;
+    text-align: center;
+}
