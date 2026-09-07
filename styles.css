@@ -49,7 +49,7 @@ body {
     color: #febe10;
 }
 
-/* The sidebar floats left, as shown in the instructor's layout examples. */
+/* The sidebar floats left */
 #sidebar {
     float: left;
     width: 22%;
