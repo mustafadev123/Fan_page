@@ -4,56 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About My Real Madrid Fandom</title>
+    <!-- External stylesheet for this page's layout and colors. -->
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <!-- The container holds the main sections of the page. -->
+    <!-- Page container -->
     <div id="container">
         <div id="header">
             <div id="logo">Hala Madrid</div>
             <div id="tagline">A personal page about my love for Real Madrid</div>
         </div>
 
-        <div id="menu">
+        <!-- Changed div to nav; link spacing is in styles.css. -->
+        <nav id="menu">
             <a href="#about">The Club</a>
             <a href="#motivation">My Fandom</a>
             <a href="#connect">Official Links</a>
+        </nav>
+
+        <!-- Added a wrapper for the two-column Flexbox layout in styles.css. -->
+        <div id="content-layout">
+            <div id="sidebar">
+                <h2>About the Fan</h2>
+                <div id="profile-box">
+                    <div id="profile-initials">RM</div>
+                    <p>A proud Real Madrid supporter who has followed the club and football since 2013.</p>
+                </div>
+            </div>
+
+            <div id="main">
+                <div id="about" class="section">
+                    <h1>About Real Madrid</h1>
+                    <p>Real Madrid is a professional football club from Madrid, Spain. The club was founded in 1902 and is known around the world for its white kit, proud history, and tradition of competing for the biggest trophies.</p>
+                    <p>The Santiago Bernabeu is the club's famous home stadium. Real Madrid has had many legendary players and has created unforgettable moments in Spanish and European football.</p>
+                </div>
+
+                <div id="motivation" class="section">
+                    <h2>My Love for the Club</h2>
+                    <p>I have been supporting Real Madrid and football in general since 2013. Since then, the club has become a very important part of my life. I follow the matches, celebrate the victories, and stay loyal during the difficult moments too.</p>
+                    <p>I consider myself a diehard Real Madrid fan. In my room, I have posters of Gareth Bale, Cristiano Ronaldo, and Karim Benzema wearing the Real Madrid jersey. I also have a poster of the legendary coach Zinedine Zidane. These players and this coach represent an unforgettable era for the club and are a big part of why my support is so strong.</p>
+                </div>
+
+                <div id="connect" class="section">
+                    <h2>Official Links</h2>
+                    <p>Learn more about the club and follow Real Madrid:</p>
+                    <p>
+                        <a href="https://www.realmadrid.com/en-US" target="_blank" rel="noopener">Official Website</a>
+                        <a href="https://www.instagram.com/realmadrid/" target="_blank" rel="noopener">Instagram</a>
+                        <a href="https://www.youtube.com/realmadrid" target="_blank" rel="noopener">YouTube</a>
+                    </p>
+                </div>
+            </div>
+
         </div>
 
-        <!-- The sidebar floats beside the main content. -->
-        <div id="sidebar">
-            <h2>About the Fan</h2>
-            <div id="profile-box">
-                <div id="profile-initials">RM</div>
-                <p>A proud Real Madrid supporter who has followed the club and football since 2013.</p>
-            </div>
-        </div>
-
-        <div id="main">
-            <div id="about" class="section">
-                <h1>About Real Madrid</h1>
-                <p>Real Madrid is a professional football club from Madrid, Spain. The club was founded in 1902 and is known around the world for its white kit, proud history, and tradition of competing for the biggest trophies.</p>
-                <p>The Santiago Bernabeu is the club's famous home stadium. Real Madrid has had many legendary players and has created unforgettable moments in Spanish and European football.</p>
-            </div>
-
-            <div id="motivation" class="section">
-                <h2>My Love for the Club</h2>
-                <p>I have been supporting Real Madrid and football in general since 2013. Since then, the club has become a very important part of my life. I follow the matches, celebrate the victories, and stay loyal during the difficult moments too.</p>
-                <p>I consider myself a diehard Real Madrid fan. In my room, I have posters of Gareth Bale, Cristiano Ronaldo, and Karim Benzema wearing the Real Madrid jersey. I also have a poster of the legendary coach Zinedine Zidane. These players and this coach represent an unforgettable era for the club and are a big part of why my support is so strong.</p>
-            </div>
-
-            <div id="connect" class="section">
-                <h2>Official Links</h2>
-                <p>Learn more about the club and follow Real Madrid:</p>
-                <p>
-                    <a href="https://www.realmadrid.com/en-US" target="_blank" rel="noopener">Official Website</a>
-                    <a href="https://www.instagram.com/realmadrid/" target="_blank" rel="noopener">Instagram</a>
-                    <a href="https://www.youtube.com/realmadrid" target="_blank" rel="noopener">YouTube</a>
-                </p>
-            </div>
-        </div>
-
-        <!-- Clear keeps the footer below the floated sidebar. -->
+        <!-- Footer below both columns -->
         <div id="footer">
             <p>&copy; 2026 Hala Madrid</p>
         </div>
